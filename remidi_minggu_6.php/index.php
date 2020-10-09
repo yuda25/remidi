@@ -15,7 +15,7 @@ foreach ($perdana as $key) {
 
    $temp_arr[]=$key[0];
 }
-$pilihan=array_unique($temp_arr); // array_unique =Menghapus nilai duplikat dari array
+$pilihan=array_unique($temp_arr); // array_unique =menjadikan per kawanan
 
 $tampilkan_perdana=[];
 if(isset($_POST['filter']))  // isset =  Tentukan apakah variabel dideklarasikan dan berbeda dariNULL
